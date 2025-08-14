@@ -2,7 +2,7 @@ spring:
   application:
     name: file-service
   profiles:
-    active: dev
+    active: prod
 cloudinary:
   cloud:
     name: deozipakf
