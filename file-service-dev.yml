@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: file-service
+  servlet:
+    multipart:
+      max-request-size: 20MB
+      max-file-size: 10MB
+  config:
+    import: ${SPRING_CONFIG_IMPORT:optional:configserver:http://localhost:8071/}
+cloudinary:
+  cloud:
+    name: deozipakf
+  api:
+    key: 617116739785479
+    secret: l43AgCl03cV8V008w_FRC2U79zM
